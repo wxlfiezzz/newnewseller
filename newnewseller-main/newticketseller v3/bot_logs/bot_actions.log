@@ -1,0 +1,60 @@
+2025-11-20 13:56:05 | INFO | Бот запускается...
+2025-11-20 13:56:23 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
+2025-11-20 13:56:31 | INFO | ADMIN | 1049172316 | Михаил | Просмотр статистики
+2025-11-20 13:56:34 | INFO | ADMIN | 1049172316 | Михаил | Создание ссылки подписки
+2025-11-20 13:56:37 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
+2025-11-20 13:56:42 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
+2025-11-20 13:56:44 | INFO | ADMIN | 1049172316 | Михаил | Открытие управления администраторами
+2025-11-20 13:56:45 | INFO | ADMIN | 1049172316 | Михаил | Просмотр списка подписчиков
+2025-11-20 13:57:41 | INFO | Бот запускается...
+2025-11-20 13:57:49 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
+2025-11-20 13:57:51 | INFO | ADMIN | 1049172316 | Михаил | Просмотр статистики
+2025-11-20 13:57:54 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
+2025-11-20 13:57:55 | INFO | ADMIN | 1049172316 | Михаил | Открытие управления администраторами
+2025-11-20 13:58:36 | INFO | Бот запускается...
+2025-11-20 14:17:52 | INFO | Бот запускается...
+2025-11-20 14:17:52 | INFO | Автоматическая очистка файлов: каждый день в 03:00
+2025-11-20 14:17:52 | INFO | Автоматическая очистка активности: каждый день в 04:00
+2025-11-20 14:20:03 | INFO | Бот запускается...
+2025-11-20 14:20:03 | INFO | Защита от спама: макс. 5 действий в минуту для пользователей
+2025-11-20 14:20:03 | INFO | Автоматическая очистка файлов: каждый день в 03:00
+2025-11-20 14:20:03 | INFO | Автоматическая очистка активности: каждый день в 04:00
+2025-11-20 14:20:39 | INFO | Активация подписки для 6048779200 с токеном: 2f335aea1ac6
+2025-11-20 14:20:39 | ERROR | Ошибка при активации подписки: (sqlite3.OperationalError) no such column: users.is_blocked
+[SQL: SELECT users.id AS users_id, users.user_id AS users_user_id, users.username AS users_username, users.first_name AS users_first_name, users.has_access AS users_has_access, users.subscription_date AS users_subscription_date, users.file_hash AS users_file_hash, users.last_file_sent AS users_last_file_sent, users.files_received AS users_files_received, users.pending_file AS users_pending_file, users.is_blocked AS users_is_blocked, users.blocked_at AS users_blocked_at, users.blocked_by AS users_blocked_by 
+FROM users 
+WHERE users.user_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: (6048779200, 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-20 14:20:47 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
+2025-11-20 14:20:47 | ERROR | Ошибка получения статистики: (sqlite3.OperationalError) no such column: users.is_blocked
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT users.id AS users_id, users.user_id AS users_user_id, users.username AS users_username, users.first_name AS users_first_name, users.has_access AS users_has_access, users.subscription_date AS users_subscription_date, users.file_hash AS users_file_hash, users.last_file_sent AS users_last_file_sent, users.files_received AS users_files_received, users.pending_file AS users_pending_file, users.is_blocked AS users_is_blocked, users.blocked_at AS users_blocked_at, users.blocked_by AS users_blocked_by 
+FROM users 
+WHERE users.has_access = 1 AND users.files_received = ?) AS anon_1]
+[parameters: (0,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-20 14:20:48 | INFO | ADMIN | 1049172316 | Михаил | Создание ссылки подписки
+2025-11-20 14:20:57 | INFO | ADMIN | 1049172316 | Михаил | Создание ссылки подписки
+2025-11-20 14:21:33 | INFO | Бот запускается...
+2025-11-20 14:21:33 | INFO | Защита от спама: макс. 5 действий в минуту для пользователей
+2025-11-20 14:21:33 | INFO | Автоматическая очистка файлов: каждый день в 03:00
+2025-11-20 14:21:33 | INFO | Автоматическая очистка активности: каждый день в 04:00
+2025-11-20 14:22:34 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
+2025-11-20 14:22:34 | ERROR | Ошибка получения статистики: (sqlite3.OperationalError) no such column: users.is_blocked
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT users.id AS users_id, users.user_id AS users_user_id, users.username AS users_username, users.first_name AS users_first_name, users.has_access AS users_has_access, users.subscription_date AS users_subscription_date, users.file_hash AS users_file_hash, users.last_file_sent AS users_last_file_sent, users.files_received AS users_files_received, users.pending_file AS users_pending_file, users.is_blocked AS users_is_blocked, users.blocked_at AS users_blocked_at, users.blocked_by AS users_blocked_by 
+FROM users 
+WHERE users.has_access = 1 AND users.files_received = ?) AS anon_1]
+[parameters: (0,)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-11-20 14:23:57 | INFO | Бот запускается...
+2025-11-20 14:23:57 | INFO | Защита от спама: макс. 5 действий в минуту для пользователей
+2025-11-20 14:23:57 | INFO | Автоматическая очистка файлов: каждый день в 03:00
+2025-11-20 14:23:57 | INFO | Автоматическая очистка активности: каждый день в 04:00
+2025-11-20 14:24:45 | INFO | Бот запускается...
+2025-11-20 14:24:45 | INFO | Защита от спама: макс. 5 действий в минуту для пользователей
+2025-11-20 14:24:45 | INFO | Автоматическая очистка файлов: каждый день в 03:00
+2025-11-20 14:24:45 | INFO | Автоматическая очистка активности: каждый день в 04:00
+2025-11-20 14:25:53 | INFO | ADMIN | 1049172316 | Михаил | Открытие панели администратора
