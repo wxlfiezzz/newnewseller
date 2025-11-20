@@ -1,0 +1,5 @@
+python-telegram-bot==20.7
+sqlalchemy==2.0.23
+python-telegram-bot[job-queue]==20.7
+sqlalchemy==2.0.23
+telegram
